@@ -25,7 +25,7 @@ import cron from 'node-cron'
         const config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'https://discord.com/api/webhooks/1097411076037029928/sy2DYOC2IfDR5AzN1a2e9GPUPba-MFsWaNliokmcmtg6YLVLOHxb9O31S-TfNtStQ98_',
+            url: process.env['webhook'],
             data
         }
 
