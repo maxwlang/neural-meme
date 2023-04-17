@@ -9,6 +9,7 @@ import axios from 'axios'
 import FormData from 'form-data'
 import cron from 'node-cron'
 ;(async (): Promise<void> => {
+    console.log(`Running, webhook: ${process.env['WEBHOOK_URL']}`)
     cron.schedule('10 * * * *', async () => {
         console.log('Making meme')
         const meme = await getRandomMeme()
