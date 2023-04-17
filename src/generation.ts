@@ -94,7 +94,6 @@ export async function getGPTResponseForPayload(
         'http://10.0.2.135:8080/generate',
         payload
     )
-    console.log(gptJResponse.status)
 
     if (gptJResponse.status !== 200) {
         throw new Error('Request failed with non-200 status code')
@@ -110,7 +109,6 @@ export async function getGPTResponseForPayload(
     }
 
     const memeArray = gptJResponse.data.completion.split('###')
-    console.log(memeArray)
 
     const boxRegex = /(Box [0-9]:[\s]?)/gi
     const boxes = memeArray[payload.hashCount]
