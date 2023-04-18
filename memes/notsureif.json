@@ -1,0 +1,19 @@
+{
+  "name": "Not Sure If",
+  "description": "futurama fry not sure, stupid person",
+  "image": "notsureif.jpg",
+  "gptJ": {
+    "generatedTokenLimit": 40,
+    "topP": 0.7,
+    "topK": 0,
+    "temperature": 1
+  },
+  "boxLocations": [
+    { "x": 10, "y": 400, "font": "FONT_SANS_32_BLACK" },
+    { "x": 10, "y": 4600, "font": "FONT_SANS_32_BLACK" }
+  ],
+  "examples": [
+    ["not sure if overworked", "or bad at time management"],
+    ["not sure if that fart was silent", "or if everyone left"]
+  ]
+}

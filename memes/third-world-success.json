@@ -6,7 +6,7 @@
     "generatedTokenLimit": 40,
     "topP": 0.7,
     "topK": 0,
-    "temperature": 0.95
+    "temperature": 1
   },
   "boxLocations": [
     { "x": 10, "y": 30, "font": "FONT_SANS_32_WHITE" },

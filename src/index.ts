@@ -7,11 +7,12 @@ import {
 import fs from 'fs'
 import axios from 'axios'
 import FormData from 'form-data'
-import cron from 'node-cron'
 ;(async (): Promise<void> => {
     console.log(`Running, webhook: ${process.env['WEBHOOK_URL']}`)
-    cron.schedule('10 * * * *', async () => {
+
+    async function post(): Promise<void> {
         console.log('Making meme')
+
         const meme = await getRandomMeme()
         const gptJPayload = await createPayloadFromMemeObject(meme)
         const gptJResponse = await getGPTResponseForPayload(gptJPayload)
@@ -31,5 +32,9 @@ import cron from 'node-cron'
         }
 
         await axios.request(config)
-    })
+    }
+
+    post()
+
+    setInterval(post, 1000 * 60 * 10)
 })()
