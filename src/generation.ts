@@ -4,6 +4,13 @@ import { basename } from 'path'
 import { glob } from 'glob'
 import fs from 'fs'
 import jimp from 'jimp'
+import { decode } from 'jpeg-js'
+import { Bitmap } from '@jimp/core/types/etc'
+
+jimp.decoders['image/jpeg'] = (data): Bitmap => {
+    const userOpts = { maxMemoryUsageInMB: 1024 }
+    return decode(data, userOpts)
+}
 
 export interface Meme {
     name: string

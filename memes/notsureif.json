@@ -9,8 +9,8 @@
     "temperature": 1
   },
   "boxLocations": [
-    { "x": 10, "y": 400, "font": "FONT_SANS_32_BLACK" },
-    { "x": 10, "y": 4600, "font": "FONT_SANS_32_BLACK" }
+    { "x": 10, "y": 25, "font": "FONT_SANS_64_BLACK" },
+    { "x": 10, "y": 660, "font": "FONT_SANS_64_BLACK" }
   ],
   "examples": [
     ["not sure if overworked", "or bad at time management"],
