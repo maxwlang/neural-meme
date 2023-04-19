@@ -44,6 +44,9 @@ import FormData from 'form-data'
                 }
             }
         }
+
+        if (!gptJResponse) throw new Error('Missing GPT response')
+
         const memeBuffer = await jcompositeText(meme.image, gptJResponse)
         console.log('Text composited')
 
