@@ -2,14 +2,25 @@
   "name": "Why Cant I Hold All These Limes",
   "description": "cant hold limes, too many limes",
   "boxLocations": [
-    { "x": 10, "y": 10, "font": "FONT_SANS_64_BLACK" },
-    { "x": 10, "y": 700, "font": "FONT_SANS_64_BLACK" }
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 70,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 20 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 700,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 20 }
+    }
   ],
   "examples": [
     ["Why cant I", "hold all these limes?"],
     ["Why cant I", "hold all this materia?"],
-    ["Why cant I", "hold all these ponies?"],
-    ["Why cant I", "get probed"]
+    ["Why cant I", "hold all these fucking things?"],
+    ["Why cant I", "get probed"],
+    ["Why cant I", "hold all this?"]
   ],
   "exampleRequiredValues": 2
 }

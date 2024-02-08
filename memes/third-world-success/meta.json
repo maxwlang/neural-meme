@@ -2,13 +2,24 @@
   "name": "Third World Success Kid",
   "description": "happy african child, african kids dancing",
   "boxLocations": [
-    { "x": 10, "y": 30, "font": "FONT_SANS_32_WHITE" },
-    { "x": 10, "y": 425, "font": "FONT_SANS_32_WHITE" }
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 50,
+      "font": { "file": "impact.ttf", "size": 50, "wrap": 20 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 435,
+      "font": { "file": "impact.ttf", "size": 50, "wrap": 20 }
+    }
   ],
   "examples": [
     ["TITANIC: ABOUT TO SINK", "THE UNCOOKED SHRIMP AND LOBSTERS:"],
-    ["Kid: gets murdered", "Oompa Loompas:"],
-    ["Disney Princess: *sings*", "Every animal within a 5 km radius:"]
+    ["Kid: gets murdered", "Every animal within a 5 km radius:"],
+    ["Me: gets married", "My dad:"],
+    ["Me: gets a job", "My bank account:"]
   ],
   "exampleRequiredValues": 2
 }

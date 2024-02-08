@@ -1,20 +1,57 @@
 {
-  "name": "Expanding Brain",
+  "name": "Galaxy Brain",
   "description": "expanding brain, very smart",
   "boxLocations": [
-    { "x": 10, "y": 112, "font": "FONT_SANS_32_BLACK" },
-    { "x": 10, "y": 339, "font": "FONT_SANS_32_BLACK" },
-    { "x": 10, "y": 555, "font": "FONT_SANS_32_BLACK" },
-    { "x": 10, "y": 777, "font": "FONT_SANS_32_BLACK" }
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 50,
+      "font": { "file": "Roboto-Regular.ttf", "size": 30, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 270,
+      "font": { "file": "Roboto-Regular.ttf", "size": 30, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 500,
+      "font": { "file": "Roboto-Regular.ttf", "size": 30, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 710,
+      "font": { "file": "Roboto-Regular.ttf", "size": 30, "wrap": 22 }
+    }
   ],
   "examples": [
     ["who", "whom", "whom'st", "whomst'd"],
-    ["dead", "lifeless", "not alive", "woken't"],
     [
-      "the future is better",
-      "the past is better",
-      "the present is better",
-      "they all are good"
+      "Showing up to work",
+      "Skipping work",
+      "Quitting your job",
+      "Paying someone to show up to work for you"
+    ],
+    [
+      "Milking a cow",
+      "Milking yourself",
+      "Milking your mom",
+      "Milking your best friend"
+    ],
+    [
+      "Paying for music",
+      "Using Spotify",
+      "Pirating so you don't have to deal with ads",
+      "Memorizing and copying music by memory"
+    ],
+    [
+      "Having sex",
+      "Getting your dick sucked",
+      "Jacking off",
+      "Sucking your own dick"
     ]
   ],
   "exampleRequiredValues": 4
