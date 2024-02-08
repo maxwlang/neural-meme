@@ -1,0 +1,49 @@
+{
+  "name": "Wanted to go to heaven",
+  "description": "god said, what if god said",
+  "boxLocations": [
+    {
+      "hidden": true
+    },
+    {
+      "hidden": true
+    },
+    {
+      "hidden": true
+    },
+    {
+      "hidden": false,
+      "x": 455,
+      "y": 480,
+      "font": {
+        "file": "Roboto-Regular.ttf",
+        "size": 40,
+        "wrap": 20
+      }
+    }
+  ],
+  "examples": [
+    ["What if you", "wanted to go to heaven", "but god said", "AMOGUS"],
+    ["What if you", "wanted to go to heaven", "but god said", "No"],
+    ["What if you", "wanted to go to heaven", "but god said", "Hello"],
+    [
+      "What if you",
+      "wanted to go to heaven",
+      "but god said",
+      "Sorry but this content isnt available in your country"
+    ],
+    [
+      "What if you",
+      "wanted to go to heaven",
+      "but god said",
+      "We dont have any updates for you right now"
+    ],
+    [
+      "What if you",
+      "wanted to go to heaven",
+      "but god said",
+      "Nahh remember when you kept scrolling"
+    ]
+  ],
+  "exampleRequiredValues": 4
+}

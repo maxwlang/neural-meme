@@ -1,0 +1,26 @@
+{
+  "name": "Two Guys On a Bus",
+  "description": "Comparison",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 40,
+      "y": 255,
+      "font": { "file": "impact.ttf", "size": 27, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 460,
+      "y": 230,
+      "font": { "file": "impact.ttf", "size": 27, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["Beans (British Food)", "Beans (Mexican Food)"],
+    ["Does vaginal sex", "Does anal sex"],
+    ["New covid variant", "Doesn't watch news"],
+    ["Afraid of clowns", "Clussy enjoyer"],
+    ["Looked in the box", "Didn't look in the box"]
+  ],
+  "exampleRequiredValues": 2
+}

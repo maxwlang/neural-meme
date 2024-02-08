@@ -1,0 +1,75 @@
+{
+  "name": "I bring a sort of vibe",
+  "description": "Vibe",
+  "boxLocations": [
+    {
+      "hidden": true
+    },
+    {
+      "hidden": false,
+      "x": 95,
+      "y": 84,
+      "font": { "file": "impact.ttf", "size": 27, "wrap": 27 }
+    },
+    {
+      "hidden": true
+    },
+    {
+      "hidden": false,
+      "x": 275,
+      "y": 148,
+      "font": { "file": "impact.ttf", "size": 27, "wrap": 27 }
+    },
+    {
+      "hidden": true
+    },
+    {
+      "hidden": false,
+      "x": 146,
+      "y": 200,
+      "font": { "file": "impact.ttf", "size": 25, "wrap": 27 }
+    },
+    {
+      "hidden": true
+    }
+  ],
+  "examples": [
+    [
+      "I bring a sort of",
+      "I HATE THE ANTICHRIST",
+      "vibe to the",
+      "groupchat",
+      "that",
+      "federal agents",
+      "don't really like"
+    ],
+    [
+      "I bring a sort of",
+      "may all beings be free",
+      "vibe to the",
+      "world",
+      "that",
+      "people in authority",
+      "don't really like"
+    ],
+    [
+      "I bring a sort of",
+      "crying in public",
+      "vibe to the",
+      "party",
+      "that",
+      "people",
+      "don't really like"
+    ],
+    [
+      "I bring a sort of",
+      "good and how are you",
+      "vibe to the",
+      "therapy session",
+      "that",
+      "my therapist",
+      "don't really like"
+    ]
+  ],
+  "exampleRequiredValues": 7
+}

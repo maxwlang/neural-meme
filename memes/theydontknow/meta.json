@@ -1,0 +1,20 @@
+{
+  "name": "They Don't know meme",
+  "description": "Wojack",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 160,
+      "y": 50,
+      "font": { "file": "impact.ttf", "size": 25, "wrap": 20 }
+    }
+  ],
+  "examples": [
+    ["They don't know I played this 2 weeks early"],
+    ["They don't know I am a bitcoin millionaire"],
+    ["They don't know I produced this track"],
+    ["They don't know I have a pipebomb"],
+    ["They don't know I am about to cause chaos"]
+  ],
+  "exampleRequiredValues": 1
+}

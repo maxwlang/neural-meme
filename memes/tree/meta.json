@@ -1,0 +1,24 @@
+{
+  "name": "Wise Mystical Tree",
+  "description": "Wisdom",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 70,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 600,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["It is better to pee in the sink", "Than to sink in the pee"],
+    ["All popes are old men", "But not all old men are popes"],
+    ["Just because it's free", "Doesn't mean it's good"]
+  ],
+  "exampleRequiredValues": 2
+}

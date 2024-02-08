@@ -1,0 +1,14 @@
+{
+  "name": "Uno Draw 25",
+  "description": "Bad Choice",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 75,
+      "y": 180,
+      "font": { "file": "impact.ttf", "size": 28, "wrap": 10 }
+    }
+  ],
+  "examples": [["Suck my dick"], ["Give me 25000 dollars"], ["Pay your rent"]],
+  "exampleRequiredValues": 1
+}

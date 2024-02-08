@@ -1,0 +1,24 @@
+{
+  "name": "Normal and Dark MR. Incredible",
+  "description": "Cursed Realization",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 20,
+      "y": 30,
+      "font": { "file": "impact.ttf", "size": 28, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 380,
+      "y": 30,
+      "font": { "file": "impact.ttf", "size": 28, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["Character creator has tons of options", "Huge Ass"],
+    ["Let's eat, Bobert", "Let's eat Bobert"],
+    ["The teachers copy", "What the students get"]
+  ],
+  "exampleRequiredValues": 2
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Daily Struggle",
+  "description": "Button decision",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 51,
+      "y": 118,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    },
+    {
+      "hidden": false,
+      "x": 272,
+      "y": 82,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    }
+  ],
+  "examples": [
+    ["Be a dick", "Don't be a dick"],
+    ["Become thicc", "Become a tomboy"],
+    ["Wanting to be alone", "Needing social interaction"],
+    ["Shit", "Piss"]
+  ],
+  "exampleRequiredValues": 2
+}

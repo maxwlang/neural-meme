@@ -1,0 +1,27 @@
+{
+  "name": "Why Cant I Hold All These Limes",
+  "description": "cant hold limes, too many limes",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 70,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 20 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 700,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 20 }
+    }
+  ],
+  "examples": [
+    ["Why cant I", "hold all this materia?"],
+    ["Why cant I", "hold all these fucking things?"],
+    ["Lime chaos:", "I can't keep up!"],
+    ["Me trying to juggle", "all my responsibilities"],
+    ["When life gives you limes", "but you can't hold them all"],
+    ["Why cant I", "hold all these limes?"]
+  ],
+  "exampleRequiredValues": 2
+}

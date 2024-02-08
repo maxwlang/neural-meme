@@ -9,21 +9,23 @@
     "fetch": "^1.1.0",
     "form-data": "^4.0.0",
     "glob": "^10.1.0",
-    "jimp": "^0.22.7",
-    "jpeg-js": "^0.4.4",
+    "gm": "^1.25.0",
     "node-cron": "^3.0.2",
     "ramda": "^0.29.0",
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.0",
+    "word-wrap": "^1.2.5"
   },
   "scripts": {
     "start": "node dist/index.js",
     "dev": "yarn clean && yarn lint && yarn build && node dist/index.js",
     "clean": "rimraf dist/",
     "build": "tsc",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "test": "true"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
+    "@types/gm": "^1.25.4",
     "@types/node": "^18.15.11",
     "@types/node-cron": "^3.0.7",
     "@types/ramda": "^0.29.0",

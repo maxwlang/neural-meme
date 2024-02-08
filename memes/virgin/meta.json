@@ -1,0 +1,105 @@
+{
+  "name": "Virgin vs Chad",
+  "description": "Virgin",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 213,
+      "y": 36,
+      "font": { "file": "impact.ttf", "size": 50, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 935,
+      "y": 36,
+      "font": { "file": "impact.ttf", "size": 50, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 39,
+      "y": 179,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 33,
+      "y": 543,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 427,
+      "y": 401,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 163,
+      "y": 797,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 769,
+      "y": 125,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 927,
+      "y": 419,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 10 }
+    },
+    {
+      "hidden": false,
+      "x": 1255,
+      "y": 121,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 22 }
+    },
+    {
+      "hidden": false,
+      "x": 1213,
+      "y": 500,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 10 }
+    }
+  ],
+  "examples": [
+    [
+      "Virgin API Consumer",
+      "Chad third-party Scraper",
+      "json",
+      "fears html",
+      "has to worry about quota",
+      "tokens",
+      "follows no rules",
+      "even javascript cant stop him",
+      "parses html with regex",
+      "his business is profitable"
+    ],
+    [
+      "Virgin Fart Smella",
+      "Chad Smart Fella",
+      "unhealthy",
+      "Got bad breath",
+      "Dumb AF",
+      "has failed his classroom",
+      "big brain time",
+      "let his buddies copy his homework",
+      "knows a lot of interesting facts",
+      "fucks all the girls in his classroom"
+    ],
+    [
+      "Virgin Internet Shopping",
+      "Chad Cyberspace Acquisition",
+      "Compares 16 different websites for the cheapest price",
+      "Uses discount codes and coupons, frustrated they can't be combined",
+      "Pays with credit card, bill two months overdue",
+      "Looks out for free delivery deals",
+      "Always items at full retail price",
+      "Acquires the first item visible, prices will be automatically adjusted",
+      "Orders delivery by helicopter",
+      "Takes credit licenses from banks at a phonecall"
+    ]
+  ],
+  "exampleRequiredValues": 10
+}

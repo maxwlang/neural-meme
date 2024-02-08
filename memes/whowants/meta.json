@@ -1,0 +1,26 @@
+{
+  "name": "Who Wants To",
+  "description": "Who Wants",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 227,
+      "y": 70,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 236,
+      "y": 540,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["Who wants to shit", "Who wants to wipe"],
+    ["Who wants cock", "Who wants balls"],
+    ["Who wants to change the world", "Who wants to die"],
+    ["Who wants cold water", "Who wants to put water in the fridge"],
+    ["Who wants equality", "Who wants to fight for it"]
+  ],
+  "exampleRequiredValues": 2
+}

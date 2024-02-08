@@ -1,0 +1,6 @@
+export GPT_API=http://g4f-api.k8s.maxwlang.com/v1/chat/completions
+export GPT_MODEL=gpt-4
+export GPT_TIMEOUT=8000
+export GPT_BLACKLISTED_PROVIDERS=Phind
+export WEBHOOK_URL=https://webhook.url
+export POST_INTERVAL=1000

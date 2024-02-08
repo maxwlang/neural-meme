@@ -1,0 +1,39 @@
+{
+  "name": "Oprah Giving Out",
+  "description": "oprah winfrey, free stuff",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 40,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 80,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 380,
+      "font": { "file": "impact.ttf", "size": 45, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["you get a car!", "you get a car!", "everybody gets a car!"],
+    ["you get a house!", "you get a house!", "everybody gets a house!"],
+    [
+      "you get an alien probing",
+      "you get an alien probing!",
+      "everybody is getting probed!"
+    ],
+    [
+      "You get a best friend!",
+      "You get a best friend!",
+      "everybody gets a best friend!"
+    ]
+  ],
+  "exampleRequiredValues": 3
+}

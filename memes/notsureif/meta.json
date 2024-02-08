@@ -1,0 +1,24 @@
+{
+  "name": "Not Sure If",
+  "description": "futurama fry not sure, stupid person",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 125,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 40 }
+    },
+    {
+      "hidden": false,
+      "x": 10,
+      "y": 720,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 40 }
+    }
+  ],
+  "examples": [
+    ["not sure if overworked", "or bad at time management"],
+    ["not sure if that fart was silent", "or if everyone left"],
+    ["not sure if netflix and chill", "is really about watching netflix"]
+  ],
+  "exampleRequiredValues": 2
+}

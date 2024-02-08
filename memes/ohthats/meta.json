@@ -1,0 +1,19 @@
+{
+  "name": "Spongebob Fish Toilet",
+  "description": "Gross",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 500,
+      "y": 500,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 10 }
+    }
+  ],
+  "examples": [
+    ["Semen"],
+    ["Not flushed"],
+    ["Federal Agents looking through my camera"],
+    ["Criminal behavior"]
+  ],
+  "exampleRequiredValues": 1
+}

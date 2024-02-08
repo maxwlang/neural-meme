@@ -1,0 +1,26 @@
+{
+  "name": "Drake Hotline Bling",
+  "description": "very good, like this dont like that",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 519,
+      "y": 40,
+      "font": { "file": "Roboto-Regular.ttf", "size": 40, "wrap": 29 }
+    },
+    {
+      "hidden": false,
+      "x": 519,
+      "y": 550,
+      "font": { "file": "Roboto-Regular.ttf", "size": 40, "wrap": 29 }
+    }
+  ],
+  "examples": [
+    ["Among Us", "AMOGUS"],
+    ["Browsing Reddit", "Browsing Imgur"],
+    ["Any other drink", "Mug root beer"],
+    ["Working for 30 min", "Shitting for 16 hours"],
+    ["Investing in my retirement", "Gambling it all"]
+  ],
+  "exampleRequiredValues": 2
+}
