@@ -1,6 +1,6 @@
 {
   "name": "Drake Hotline Bling",
-  "description": "very good, like this dont like that",
+  "description": "A meme comparing a good thing to a bad thing.",
   "boxLocations": [
     {
       "hidden": false,
@@ -22,5 +22,6 @@
     ["Working for 30 min", "Shitting for 16 hours"],
     ["Investing in my retirement", "Gambling it all"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

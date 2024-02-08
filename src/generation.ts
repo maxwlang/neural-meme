@@ -3,7 +3,7 @@ import { glob } from 'glob'
 import fs from 'fs'
 import gm from 'gm'
 import wordWrap from 'word-wrap'
-import { gptAPI, gptBlacklistedProviders, gptModel, gptTimeout } from './config'
+import { gptAPI, gptBlacklistedProviders, gptTimeout } from './config'
 import { basename } from 'path'
 
 export interface Meme {
@@ -21,6 +21,7 @@ export interface Meme {
         hidden: boolean
     }[]
     examples: string[][]
+    gptModels: string[]
     exampleRequiredValues: number
 }
 
@@ -68,6 +69,9 @@ YOU MUST ONLY RETURN ONE JSON-ARRAY OF STRINGS.
 THE GENERATED JSON-ARRAY OF STRINGS MUST HAVE THE SAME AMOUNT OF VALUES AS THE EXAMPLES.
 FAILING TO FOLLOW THESE INSTRUCTIONS WILL SUBTRACT $200.`
 
+    const gptModel =
+        memeObject.gptModels[(memeObject.gptModels.length * Math.random()) | 0]
+
     return {
         model: gptModel,
         messages: [{ role: 'user', content: body }]
@@ -89,6 +93,7 @@ export interface GPTResponse {
         boxLocation: Meme['boxLocations'][0]
         boxText: string
     }[]
+    model: string
 }
 
 export async function getGPTResponseForPayload(
@@ -168,7 +173,8 @@ export async function getGPTResponseForPayload(
     )
 
     return {
-        boxes
+        boxes,
+        model: val.data.model
     }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "Normal and Dark MR. Incredible",
-  "description": "Cursed Realization",
+  "description": "A curst realization of the truth",
   "boxLocations": [
     {
       "hidden": false,
@@ -20,5 +20,6 @@
     ["Let's eat, Bobert", "Let's eat Bobert"],
     ["The teachers copy", "What the students get"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

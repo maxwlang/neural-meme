@@ -1,6 +1,6 @@
 {
   "name": "Crying vs Chad",
-  "description": "Loser opinion",
+  "description": "A meme format where a crying person is compared to a chad. The chad has outrageous confidence and some kind of absurd statement.",
   "boxLocations": [
     {
       "hidden": false,
@@ -47,5 +47,6 @@
       "200,000 upvotes"
     ]
   ],
-  "exampleRequiredValues": 4
+  "exampleRequiredValues": 4,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Spongebob Fish Toilet",
-  "description": "Gross",
+  "description": "A fish is looking grossly at a toilet. The fish is commenting about something gross in the toilet.",
   "boxLocations": [
     {
       "hidden": false,
@@ -15,5 +15,6 @@
     ["Federal Agents looking through my camera"],
     ["Criminal behavior"]
   ],
-  "exampleRequiredValues": 1
+  "exampleRequiredValues": 1,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

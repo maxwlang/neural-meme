@@ -1,6 +1,6 @@
 {
   "name": "Wise Mystical Tree",
-  "description": "Wisdom",
+  "description": "A mythical tree that gives you wisdom and advice that can sometimes be cryptic",
   "boxLocations": [
     {
       "hidden": false,
@@ -20,5 +20,6 @@
     ["All popes are old men", "But not all old men are popes"],
     ["Just because it's free", "Doesn't mean it's good"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

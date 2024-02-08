@@ -1,6 +1,6 @@
 {
   "name": "Third World Success Kid",
-  "description": "happy african child, african kids dancing",
+  "description": "A meme of a kid who is happy about something",
   "boxLocations": [
     {
       "hidden": false,
@@ -21,5 +21,6 @@
     ["Me: gets married", "My dad:"],
     ["Me: gets a job", "My bank account:"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

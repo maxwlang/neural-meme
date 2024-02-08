@@ -1,6 +1,6 @@
 {
   "name": "Virgin vs Chad",
-  "description": "Virgin",
+  "description": "A meme comparing two different types of people, the Virgin and the Chad. The Virgin is a person who is seen as a loser, while the Chad is a person who is seen as a winner. The Virgin is usually depicted as weak, unattractive, and socially awkward, while the Chad is depicted as strong, attractive, and socially confident. The Chad typically has over the top and outrageous behavior.",
   "boxLocations": [
     {
       "hidden": false,
@@ -101,5 +101,6 @@
       "Takes credit licenses from banks at a phonecall"
     ]
   ],
-  "exampleRequiredValues": 10
+  "exampleRequiredValues": 10,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

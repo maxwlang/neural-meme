@@ -1,6 +1,6 @@
 {
   "name": "No bitches",
-  "description": "Megamind feet",
+  "description": "Megamind no bitches meme",
   "boxLocations": [
     {
       "hidden": false,
@@ -9,6 +9,14 @@
       "font": { "file": "impact.ttf", "size": 80, "wrap": 10 }
     }
   ],
-  "examples": [["No bitches?"], ["No feet?"], ["No income?"], ["No GF?"]],
-  "exampleRequiredValues": 1
+  "examples": [
+    ["No bitches?"],
+    ["No feet?"],
+    ["No income?"],
+    ["No GF?"],
+    ["No tiktok?"],
+    ["No maidens?"]
+  ],
+  "exampleRequiredValues": 1,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

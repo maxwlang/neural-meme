@@ -32,7 +32,7 @@ import { postInterval, webhookURL } from './config'
         console.log('File written')
 
         const data = new FormData()
-        data.append('content', 'New New New!')
+        data.append('content', `Model: ${gptResponse.model}`)
         data.append('files', fs.createReadStream('/tmp/generated.png'))
         data.append('username', 'NeuralMeme')
 
