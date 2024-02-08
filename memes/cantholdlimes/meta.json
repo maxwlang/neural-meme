@@ -16,11 +16,12 @@
     }
   ],
   "examples": [
-    ["Why cant I", "hold all these limes?"],
     ["Why cant I", "hold all this materia?"],
     ["Why cant I", "hold all these fucking things?"],
-    ["Why cant I", "get probed"],
-    ["Why cant I", "hold all this?"]
+    ["Lime chaos:", "I can't keep up!"],
+    ["Me trying to juggle", "all my responsibilities"],
+    ["When life gives you limes", "but you can't hold them all"],
+    ["Why cant I", "hold all these limes?"]
   ],
   "exampleRequiredValues": 2
 }

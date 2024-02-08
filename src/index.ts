@@ -6,12 +6,9 @@ import {
     getRandomMemePath
 } from './generation'
 import fs from 'fs'
-// import axios from 'axios'
-// import FormData from 'form-data'
-import {
-    postInterval
-    //webhookURL
-} from './config'
+import axios from 'axios'
+import FormData from 'form-data'
+import { postInterval, webhookURL } from './config'
 ;(async (): Promise<void> => {
     console.log(`Starting`)
 
@@ -33,21 +30,20 @@ import {
 
         fs.writeFileSync('/tmp/generated.png', memeBuffer)
         console.log('File written')
-        process.exit(0)
 
-        // const data = new FormData()
-        // data.append('content', 'New New New!')
-        // data.append('files', fs.createReadStream('/tmp/generated.png'))
-        // data.append('username', 'NeuralMeme')
+        const data = new FormData()
+        data.append('content', 'New New New!')
+        data.append('files', fs.createReadStream('/tmp/generated.png'))
+        data.append('username', 'NeuralMeme')
 
-        // const config = {
-        //     method: 'post',
-        //     maxBodyLength: Infinity,
-        //     url: webhookURL,
-        //     data
-        // }
+        const config = {
+            method: 'post',
+            maxBodyLength: Infinity,
+            url: webhookURL,
+            data
+        }
 
-        // await axios.request(config).then(() => console.log('Posted to discord'))
+        await axios.request(config).then(() => console.log('Posted to discord'))
     }
 
     await post()

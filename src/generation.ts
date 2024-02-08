@@ -185,21 +185,16 @@ export async function compositeText(
         .strokeWidth(2)
 
     for (const box of gptResponse.boxes) {
-        console.log('theeee', box.boxText)
         if (box.boxLocation.hidden) continue
 
         const wrappedText = wordWrap(box.boxText, {
             width: box.boxLocation.font.wrap
         })
 
-        console.log('lsdjf', wrappedText)
-
         gmagick.font(
             `./fonts/${basename(box.boxLocation.font.file)}`,
             box.boxLocation.font.size
         )
-
-        console.log('adisaid', box.boxLocation.font)
 
         if (box.boxLocation.rotation) {
             gmagick.rotate('#000', box.boxLocation.rotation)
