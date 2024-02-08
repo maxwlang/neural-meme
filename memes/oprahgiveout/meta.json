@@ -1,13 +1,6 @@
 {
   "name": "Oprah Giving Out",
   "description": "oprah winfrey, free stuff",
-  "image": "oprahgiveout.jpg",
-  "gptJ": {
-    "generatedTokenLimit": 40,
-    "topP": 0.7,
-    "topK": 0,
-    "temperature": 1
-  },
   "boxLocations": [
     { "x": 10, "y": 10, "font": "FONT_SANS_32_BLACK" },
     { "x": 10, "y": 40, "font": "FONT_SANS_32_BLACK" },
@@ -21,5 +14,6 @@
       "you get an alien probing!",
       "everybody is getting probed!"
     ]
-  ]
+  ],
+  "exampleRequiredValues": 3
 }

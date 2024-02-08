@@ -1,0 +1,34 @@
+{
+  "name": "Wow, The Fortune Cookies Here Really Are More Accurate",
+  "description": "Fortune, Prediction",
+  "boxLocations": [
+    {
+      "hidden": true
+    },
+    {
+      "hidden": false,
+      "x": 180,
+      "y": 510,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 40 }
+    }
+  ],
+  "examples": [
+    [
+      "Wow, the fortune cookies here really are more accurate",
+      "Mojang saved the good stuff for the second caves and cliffs update"
+    ],
+    [
+      "Wow, the fortune cookies here really are more accurate",
+      "Burgers should be wider, not taller"
+    ],
+    [
+      "Wow, the fortune cookies here really are more accurate",
+      "THC cartridges are the frozen tv dinners of weed"
+    ],
+    [
+      "Wow, the fortune cookies here really are more accurate",
+      "You are going to hell no matter how good you are"
+    ]
+  ],
+  "exampleRequiredValues": 2
+}

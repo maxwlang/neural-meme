@@ -1,0 +1,51 @@
+{
+  "name": "Crying vs Chad",
+  "description": "Loser opinion",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 40,
+      "y": 30,
+      "font": { "file": "impact.ttf", "size": 32, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 40,
+      "y": 390,
+      "font": { "file": "impact.ttf", "size": 32, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 400,
+      "y": 30,
+      "font": { "file": "impact.ttf", "size": 32, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 400,
+      "y": 390,
+      "font": { "file": "impact.ttf", "size": 32, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    [
+      "Kids now:",
+      "Noooo I wanted fiji water not dasani!",
+      "My generation:",
+      "Mmmmm... hose water"
+    ],
+    [
+      "Nooooo!",
+      "You can't use that it will cause world war 3",
+      "Me:",
+      "No you are causing world war 3"
+    ],
+    [
+      "Upvote beggars:",
+      "*Gets 100,000 downvotes*",
+      "/u/icebear:",
+      "200,000 upvotes"
+    ]
+  ],
+  "exampleRequiredValues": 4
+}

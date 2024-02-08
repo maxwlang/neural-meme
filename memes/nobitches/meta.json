@@ -1,0 +1,14 @@
+{
+  "name": "No bitches",
+  "description": "Megamind feet",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 100,
+      "y": 70,
+      "font": { "file": "impact.ttf", "size": 80, "wrap": 10 }
+    }
+  ],
+  "examples": [["No bitches?"], ["No feet?"], ["No income?"], ["No GF?"]],
+  "exampleRequiredValues": 1
+}

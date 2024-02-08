@@ -1,0 +1,22 @@
+{
+  "name": "Change My Mind",
+  "description": "Man at a poster",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 200,
+      "y": 250,
+      "font": { "file": "impact.ttf", "size": 20, "wrap": 20 }
+    }
+  ],
+  "examples": [
+    ["Bowls are better than plates"],
+    ["I did not hit her"],
+    ["If you're a brain surgan"],
+    [
+      "Trucking schools are producing better citizens than liberal arts institutions"
+    ],
+    ["Showers are homemade rain"]
+  ],
+  "exampleRequiredValues": 1
+}

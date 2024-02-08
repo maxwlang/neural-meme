@@ -1,0 +1,24 @@
+{
+  "name": "Spongebob Burning Paper",
+  "description": "Spongebob, gets a weird message",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 63,
+      "y": 115,
+      "font": { "file": "Roboto-Regular.ttf", "size": 40, "wrap": 10 }
+    }
+  ],
+  "examples": [
+    ["Fuck you"],
+    ["The opinion nobody fucking asked for"],
+    ["You should be afraid"],
+    ["Can I smell your feet"],
+    ["My homework"],
+    ["Kids have emotions"],
+    ["My resume"],
+    ["My Birth certificate"],
+    ["You can't have paper underwater because it will get wet and disintegrate"]
+  ],
+  "exampleRequiredValues": 1
+}

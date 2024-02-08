@@ -1,0 +1,27 @@
+{
+  "name": "Angry Bird",
+  "description": "Gross",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 40,
+      "y": 40,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    },
+    {
+      "hidden": false,
+      "x": 40,
+      "y": 440,
+      "font": { "file": "impact.ttf", "size": 40, "wrap": 27 }
+    }
+  ],
+  "examples": [
+    ["Even on the coldest nights", "I eat my own cum"],
+    ["I piss", "Erected"],
+    ["Smart fella by day", "Fart smella by night"],
+    ["Louder the fart", "Bigger the shart"],
+    ["I HAVE", "25 MENTAL ILLNESSES"],
+    ["MY NUTS ARE", "SUPERGLUED TO THE WALL"]
+  ],
+  "exampleRequiredValues": 2
+}

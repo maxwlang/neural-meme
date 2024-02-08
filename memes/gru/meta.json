@@ -1,0 +1,52 @@
+{
+  "name": "Gru",
+  "description": "gru whiteboard meme",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 200,
+      "y": 60,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    },
+    {
+      "hidden": false,
+      "x": 555,
+      "y": 64,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    },
+    {
+      "hidden": false,
+      "x": 210,
+      "y": 293,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    },
+    {
+      "hidden": false,
+      "x": 555,
+      "y": 289,
+      "font": { "file": "Roboto-Regular.ttf", "size": 20, "wrap": 12 }
+    }
+  ],
+  "examples": [
+    [
+      "Make them go to grade school for 12 years",
+      "Then make them go to college for 4 - 8 years",
+      "Then dont give them jobs",
+      "Then dont give them jobs"
+    ],
+    [
+      "I make a meme I thought was funny",
+      "I upload it to reddit",
+      "It gets on the front page",
+      "It gets on the front page"
+    ],
+    ["12 am", "1 am", "3 am", "3 am"],
+    [
+      "Conquer much of the pacific",
+      "Attack the USA at Pearl Harbor",
+      "Get nuked",
+      "Get nuked"
+    ]
+  ],
+  "exampleRequiredValues": 4
+}

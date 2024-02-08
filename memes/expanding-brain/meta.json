@@ -1,13 +1,6 @@
 {
   "name": "Expanding Brain",
   "description": "expanding brain, very smart",
-  "image": "expanding-brain.jpg",
-  "gptJ": {
-    "generatedTokenLimit": 40,
-    "topP": 0.7,
-    "topK": 0,
-    "temperature": 1
-  },
   "boxLocations": [
     { "x": 10, "y": 112, "font": "FONT_SANS_32_BLACK" },
     { "x": 10, "y": 339, "font": "FONT_SANS_32_BLACK" },
@@ -23,5 +16,6 @@
       "the present is better",
       "they all are good"
     ]
-  ]
+  ],
+  "exampleRequiredValues": 4
 }

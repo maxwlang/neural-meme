@@ -1,74 +1,56 @@
 import {
+    compositeText,
     createPayloadFromMemeObject,
     getGPTResponseForPayload,
     getRandomMeme,
-    jcompositeText
+    getRandomMemePath
 } from './generation'
 import fs from 'fs'
-import axios from 'axios'
-import FormData from 'form-data'
+// import axios from 'axios'
+// import FormData from 'form-data'
+import {
+    postInterval
+    //webhookURL
+} from './config'
 ;(async (): Promise<void> => {
-    process.env['WEBHOOK_URL'] =
-        'https://discord.com/api/webhooks/1097421805377044480/8fWIZZpQROLprNjyRIMM5zb04Wev_ooqaPLMbNJ_wfDRYXbK8nSnriDGx3iTFSHI8mmN'
-    console.log(`Running, webhook: ${process.env['WEBHOOK_URL']}`)
+    console.log(`Starting`)
 
     async function post(): Promise<void> {
         console.log('Making meme')
 
-        const meme = await getRandomMeme()
+        const memePath = await getRandomMemePath()
+        const meme = await getRandomMeme(memePath)
+
         console.log(`Selected: ${meme.name}`)
-        const gptJPayload = await createPayloadFromMemeObject(meme)
+        const GPTPayload = await createPayloadFromMemeObject(meme)
         console.log('Payload constructed')
 
-        let satisfactoryText = false
-        let gptJResponse
-        while (!satisfactoryText) {
-            gptJResponse = await getGPTResponseForPayload(gptJPayload)
-            console.log('GPT response obtained')
+        const gptResponse = await getGPTResponseForPayload(GPTPayload, meme)
+        if (!gptResponse) throw new Error('Missing GPT response')
 
-            const { boxes } = gptJResponse
-            for (let i = 0; i < boxes.length - 1; i++) {
-                const box = boxes[i]
-                const { examples } = meme
-
-                if (
-                    examples.find((example: string[]) =>
-                        example.find(
-                            boxText => boxText.toLowerCase() === box.boxText
-                        )
-                    )
-                ) {
-                    break
-                } else {
-                    satisfactoryText = true
-                }
-            }
-        }
-
-        if (!gptJResponse) throw new Error('Missing GPT response')
-
-        const memeBuffer = await jcompositeText(meme.image, gptJResponse)
+        const memeBuffer = await compositeText(memePath, gptResponse)
         console.log('Text composited')
 
-        fs.writeFileSync('./generated.png', memeBuffer)
+        fs.writeFileSync('/tmp/generated.png', memeBuffer)
         console.log('File written')
+        process.exit(0)
 
-        const data = new FormData()
-        data.append('content', 'New AI Funny')
-        data.append('files', fs.createReadStream('./generated.png'))
-        data.append('username', 'NeuralFunny')
+        // const data = new FormData()
+        // data.append('content', 'New New New!')
+        // data.append('files', fs.createReadStream('/tmp/generated.png'))
+        // data.append('username', 'NeuralMeme')
 
-        const config = {
-            method: 'post',
-            maxBodyLength: Infinity,
-            url: process.env['WEBHOOK_URL'],
-            data
-        }
+        // const config = {
+        //     method: 'post',
+        //     maxBodyLength: Infinity,
+        //     url: webhookURL,
+        //     data
+        // }
 
-        await axios.request(config).then(() => console.log('Posted to discord'))
+        // await axios.request(config).then(() => console.log('Posted to discord'))
     }
 
-    post()
+    await post()
 
-    setInterval(post, 1000 * 60 * 10)
+    setInterval(post, postInterval)
 })()

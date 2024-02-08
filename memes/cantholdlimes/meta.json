@@ -1,13 +1,6 @@
 {
   "name": "Why Cant I Hold All These Limes",
   "description": "cant hold limes, too many limes",
-  "image": "cantholdlimes.jpg",
-  "gptJ": {
-    "generatedTokenLimit": 40,
-    "topP": 0.7,
-    "topK": 0,
-    "temperature": 1
-  },
   "boxLocations": [
     { "x": 10, "y": 10, "font": "FONT_SANS_64_BLACK" },
     { "x": 10, "y": 700, "font": "FONT_SANS_64_BLACK" }
@@ -17,5 +10,6 @@
     ["Why cant I", "hold all this materia?"],
     ["Why cant I", "hold all these ponies?"],
     ["Why cant I", "get probed"]
-  ]
+  ],
+  "exampleRequiredValues": 2
 }
