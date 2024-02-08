@@ -1,6 +1,6 @@
 {
   "name": "Angry Bird",
-  "description": "Gross",
+  "description": "A gross and offensive meme format that is primarily used to express anger or frustration through comedic shock value.",
   "boxLocations": [
     {
       "hidden": false,
@@ -23,5 +23,6 @@
     ["I HAVE", "25 MENTAL ILLNESSES"],
     ["MY NUTS ARE", "SUPERGLUED TO THE WALL"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }

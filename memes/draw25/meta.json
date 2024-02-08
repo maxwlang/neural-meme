@@ -1,6 +1,6 @@
 {
   "name": "Uno Draw 25",
-  "description": "Bad Choice",
+  "description": "A meme where the user must do something outrageous or impossible, or else they must draw 25 cards in the game Uno.",
   "boxLocations": [
     {
       "hidden": false,
@@ -10,5 +10,6 @@
     }
   ],
   "examples": [["Suck my dick"], ["Give me 25000 dollars"], ["Pay your rent"]],
-  "exampleRequiredValues": 1
+  "exampleRequiredValues": 1,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }

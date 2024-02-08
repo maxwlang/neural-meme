@@ -1,6 +1,6 @@
 {
   "name": "I bring a sort of vibe",
-  "description": "Vibe",
+  "description": "A meme format that hedges on hard truths and controversy in a way that's both funny and relatable.",
   "boxLocations": [
     {
       "hidden": true
@@ -71,5 +71,6 @@
       "don't really like"
     ]
   ],
-  "exampleRequiredValues": 7
+  "exampleRequiredValues": 7,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

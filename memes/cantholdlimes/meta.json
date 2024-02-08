@@ -1,6 +1,6 @@
 {
   "name": "Why Cant I Hold All These Limes",
-  "description": "cant hold limes, too many limes",
+  "description": "A man holds a lot of limes, some are falling. It symbolizes something.",
   "boxLocations": [
     {
       "hidden": false,
@@ -23,5 +23,6 @@
     ["When life gives you limes", "but you can't hold them all"],
     ["Why cant I", "hold all these limes?"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }

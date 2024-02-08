@@ -1,6 +1,6 @@
 {
   "name": "Two Guys On a Bus",
-  "description": "Comparison",
+  "description": "A comparison meme, the first guy is unhappy and the second guy is happy.",
   "boxLocations": [
     {
       "hidden": false,
@@ -22,5 +22,6 @@
     ["Afraid of clowns", "Clussy enjoyer"],
     ["Looked in the box", "Didn't look in the box"]
   ],
-  "exampleRequiredValues": 2
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }

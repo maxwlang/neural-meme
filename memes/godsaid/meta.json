@@ -1,6 +1,6 @@
 {
   "name": "Wanted to go to heaven",
-  "description": "god said, what if god said",
+  "description": "A meme template where a person is sad because they wanted to go to heaven but god said something else",
   "boxLocations": [
     {
       "hidden": true
@@ -23,9 +23,6 @@
     }
   ],
   "examples": [
-    ["What if you", "wanted to go to heaven", "but god said", "AMOGUS"],
-    ["What if you", "wanted to go to heaven", "but god said", "No"],
-    ["What if you", "wanted to go to heaven", "but god said", "Hello"],
     [
       "What if you",
       "wanted to go to heaven",
@@ -43,7 +40,14 @@
       "wanted to go to heaven",
       "but god said",
       "Nahh remember when you kept scrolling"
+    ],
+    [
+      "What if you",
+      "wanted to go to heaven",
+      "but god said",
+      "send this image to 10 people or you will die"
     ]
   ],
-  "exampleRequiredValues": 4
+  "exampleRequiredValues": 4,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }

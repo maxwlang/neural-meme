@@ -1,6 +1,6 @@
 {
   "name": "Oprah Giving Out",
-  "description": "oprah winfrey, free stuff",
+  "description": "Oprah is giving out something to everyone!",
   "boxLocations": [
     {
       "hidden": false,
@@ -35,5 +35,6 @@
       "everybody gets a best friend!"
     ]
   ],
-  "exampleRequiredValues": 3
+  "exampleRequiredValues": 3,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
 }

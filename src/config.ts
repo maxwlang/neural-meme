@@ -5,7 +5,6 @@ const validateParse = (envName: string): string => {
 }
 
 export const gptAPI = validateParse('GPT_API') // 'http://g4f-api.k8s.maxwlang.com/v1/chat/completions'
-export const gptModel = validateParse('GPT_MODEL') //'gpt-4'
 export const gptTimeout = +validateParse('GPT_TIMEOUT') //6000
 export const gptBlacklistedProviders = validateParse(
     'GPT_BLACKLISTED_PROVIDERS'

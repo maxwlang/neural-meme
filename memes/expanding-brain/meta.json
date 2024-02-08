@@ -1,6 +1,6 @@
 {
   "name": "Galaxy Brain",
-  "description": "expanding brain, very smart",
+  "description": "A template with 4 panels that get progressively more absurd and complex.",
   "boxLocations": [
     {
       "hidden": false,
@@ -54,5 +54,6 @@
       "Sucking your own dick"
     ]
   ],
-  "exampleRequiredValues": 4
+  "exampleRequiredValues": 4,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
 }
