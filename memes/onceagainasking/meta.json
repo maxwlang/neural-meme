@@ -1,0 +1,24 @@
+{
+  "name": "i am once again asking you",
+  "description": "a man once again asking you for something",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 60,
+      "y": 700,
+      "font": { "file": "impact.ttf", "size": 20, "wrap": 20 }
+    }
+  ],
+  "examples": [
+    ["for the nightmare to fucking end"],
+    ["did you hear that man in the walls"],
+    ["can i get a hit off your vape"],
+    ["if i can see them tiddies"],
+    ["where babies come from"],
+    ["how much wood would a woodchuck chuck chuck if a woodchuck could chuck wood"],
+    ["where am i? what did you do with my son? why won't you answer me?"],
+    ["do you play fortnite"]
+  ],
+  "exampleRequiredValues": 1,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
+}
