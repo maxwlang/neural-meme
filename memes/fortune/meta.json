@@ -3,9 +3,6 @@
   "description": "A fortune cookie is opened to reveal a message that is eerily accurate and a little too personal.",
   "boxLocations": [
     {
-      "hidden": true
-    },
-    {
       "hidden": false,
       "x": 180,
       "y": 510,
@@ -13,23 +10,14 @@
     }
   ],
   "examples": [
-    [
-      "Wow, the fortune cookies here really are more accurate",
-      "Mojang saved the good stuff for the second caves and cliffs update"
-    ],
-    [
-      "Wow, the fortune cookies here really are more accurate",
-      "Burgers should be wider, not taller"
-    ],
-    [
-      "Wow, the fortune cookies here really are more accurate",
-      "THC cartridges are the frozen tv dinners of weed"
-    ],
-    [
-      "Wow, the fortune cookies here really are more accurate",
-      "You are going to hell no matter how good you are"
-    ]
+    ["Mojang saved the good stuff for the second caves and cliffs update"],
+    ["Burgers should be wider, not taller"],
+    ["You are going to hell no matter how good you are"],
+    ["You will be the first person to die on Mars"],
+    ["r/AskReddit is the new Yahoo Answers"],
+    ["You will never be able to find a parking spot"],
+    ["You don't have to be a good person to be a good person"]
   ],
-  "exampleRequiredValues": 2,
-  "gptModels": ["gemini-pro", "gpt-3.5-turbo", "gpt-4"]
+  "exampleRequiredValues": 1,
+  "gptModels": ["gemini-pro"]
 }
