@@ -1,0 +1,35 @@
+{
+  "name": "Trade Offer",
+  "description": "You receive something and I receive something",
+  "boxLocations": [
+    {
+      "hidden": false,
+      "x": 35,
+      "y": 300,
+      "font": { "file": "impact.ttf", "size": 20, "wrap": 12 }
+    },
+    {
+      "hidden": false,
+      "x": 475,
+      "y": 300,
+      "font": { "file": "impact.ttf", "size": 20, "wrap": 12 }
+    }
+  ],
+  "examples": [
+    ["a rod of cobalt 60", "severe radiation poisoning"],
+    ["a fuckload of pepsi", "the skeletons of the soviet navy"],
+    ["all of the time you should be spending with your family", "health insurance"],
+    ["Shit", "Piss"],
+    ["money that could have been spent making rail infrastructure", "The all new 2024 Ram 1500"],
+    ["tiddy pics", "crusty sock"],
+    ["a ride in my limo", "dead president"],
+    ["fortnite", "me not shutting the fuck up about fortnite"],
+    ["no prayers", "rapture"],
+    ["messages from god", "a fuckin rock to the skull"],
+    ["meth", "text messages about people in my walls"],
+    ["immunity from prosecution", "the end of democracy as we know it"],
+    ["something", "slightly less something"]
+  ],
+  "exampleRequiredValues": 2,
+  "gptModels": ["gemini-pro", "gpt-3.5-turbo"]
+}
